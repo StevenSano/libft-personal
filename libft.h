@@ -6,7 +6,7 @@
 /*   By: hvillasa <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/10/31 10:15:41 by hvillasa          #+#    #+#             */
-/*   Updated: 2016/12/24 21:04:35 by hvillasa         ###   ########.fr       */
+/*   Updated: 2016/12/24 21:10:13 by hvillasa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,5 +91,6 @@ int				ft_isupper(int c);
 int				ft_islower(int c);
 int				ft_isspace(int c);
 void			ft_swap(int *a, int *b);
+char			*ft_strndup(const char *s1, size_t n);
 
 #endif

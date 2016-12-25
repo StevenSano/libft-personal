@@ -1,19 +1,24 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_lstadd.c                                        :+:      :+:    :+:   */
+/*   ft_strndup.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: hvillasa <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2016/11/17 05:41:14 by hvillasa          #+#    #+#             */
-/*   Updated: 2016/12/24 21:02:32 by hvillasa         ###   ########.fr       */
+/*   Created: 2016/12/22 12:06:27 by hvillasa          #+#    #+#             */
+/*   Updated: 2016/12/22 12:13:57 by hvillasa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_lstadd(t_list **alst, t_list *t_new)
+char		*ft_strndup(const char *s1, size_t n)
 {
-	t_new->next = *alst;
-	*alst = t_new;
+	char	*dup;
+
+	if (!(dup = ft_strnew(n)))
+		return (NULL);
+	else
+		ft_strncpy(dup, s1, n);
+	return (dup);
 }

@@ -6,7 +6,7 @@
 #    By: hvillasa <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/10/31 20:23:45 by hvillasa          #+#    #+#              #
-#    Updated: 2016/12/24 21:06:02 by hvillasa         ###   ########.fr        #
+#    Updated: 2016/12/24 21:09:07 by hvillasa         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -79,6 +79,7 @@ SRC		= ft_strlen.c \
 		  ft_lstmap.c \
 		  ft_swap.c \
 		  get_next_line.c \
+		  ft_strndup.c \
 
 OBJ		= $(SRC:.c=.o)
 
