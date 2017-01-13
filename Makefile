@@ -80,6 +80,7 @@ SRC		= ft_strlen.c \
 		  ft_swap.c \
 		  get_next_line.c \
 		  ft_strndup.c \
+		  ft_putnstr.c \
 
 OBJ		= $(SRC:.c=.o)
 

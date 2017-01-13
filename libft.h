@@ -79,6 +79,7 @@ void			ft_putchar_fd(char c, int fd);
 void			ft_putnbr(int n);
 void			ft_putnbr_fd(int n, int fd);
 void			ft_putstr(char const *s);
+void			ft_putnstr(char const *s, size_t len);
 void			ft_putstr_fd(char const *s, int fd);
 int				ft_tolower(int c);
 int				ft_toupper(int c);
